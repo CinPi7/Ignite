@@ -1,0 +1,49 @@
+div.container {
+  height: 180px;
+}
+
+section.repository-list {
+  margin: 2rem;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 20px;
+
+      p {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #737377;
+
+        span.folder-name {
+          color: #e697aa;
+        }
+      }
+
+      img {
+        border-radius: 50%;
+        height: 2rem;
+      }
+    }
+  }
+}
